@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/background_button"
+        android:text="模糊背景"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button1"
+        android:layout_margin="10dp"
+        android:background="@drawable/background_button"
+        android:text="玻璃破碎效果"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button2"
+        android:layout_margin="10dp"
+        android:background="@drawable/background_button"
+        android:text="一段文字中指定字段加红"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button3"
+        android:layout_margin="10dp"
+        android:background="@drawable/background_button"
+        android:text="3D\滚动listview"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button4"
+        android:layout_margin="10dp"
+        android:background="@drawable/background_button"
+        android:text="搜索关键字变颜色"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button5"
+        android:layout_margin="10dp"
+        android:background="@drawable/background_button"
+        android:text="饱和度自定义图片滤镜效果"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button6"
+        android:layout_margin="10dp"
+        android:background="@drawable/background_button"
+        android:text="颜色矩阵设置滤镜效果"
+        android:textSize="25sp"/>
+
+</RelativeLayout>
